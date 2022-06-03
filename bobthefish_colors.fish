@@ -16,6 +16,7 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 	set -l lightgrey 818596
 	set -l brblue b0c4de
 	set -l darkgrey 2e313f
+	set -l lavender 9d94c3
 
 	set -x color_initial_segment_exit     $lightgrey $red --bold
 	# set -x color_initial_segment_private  $base02 $base06
@@ -24,10 +25,8 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 
 	set -x color_path                     $darkgrey $white
 	set -x color_path_basename            $darkgrey $white
-	
-	# すでに存在しないディレクトリ等が該当（別のセッションから削除したディレクトリ上に居る時とか）
-	set -x color_path_nowrite             magenta $black
-	set -x color_path_nowrite_basename    magenta $black --bold
+	set -x color_path_nowrite             $lavender $black
+	set -x color_path_nowrite_basename    $lavender $black
 
 	# set -x color_repo                     $lightgrey $black
 	set -x color_repo                     $green $black
@@ -40,7 +39,7 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 	set -x color_vi_mode_visual           bryellow $white --bold
 
 	set -x color_vagrant                  brcyan $white
-	set -x color_k8s                      magenta white
+	set -x color_k8s                      $lavender white
 	set -x color_username                 white $white --bold
 	set -x color_hostname                 white $white
 	set -x color_rvm                      brmagenta $white
