@@ -49,12 +49,4 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 	set -x color_desk                     $brblue $white
 	set -x color_nix                      $brblue $white
 
-	# -----------------------------------
-	# 文字色
-	# ターミナルエミュレータ(windows terminalとかvscodeとか)の設定に上書きされるかも
-	# https://qiita.com/Dooteeen/items/e098755afc4acd25d81f
-
-	set fish_color_operator               91acd1
-	set fish_color_error                  6b6f86
-
 end
