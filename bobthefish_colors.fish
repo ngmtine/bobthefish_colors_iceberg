@@ -1,3 +1,5 @@
+#!/usr/bin/fish
+
 function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 
 	# iceberg
