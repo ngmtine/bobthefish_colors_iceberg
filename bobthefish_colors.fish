@@ -22,10 +22,10 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 	set -l lavender 9d94c3  #9d94c3
 	set -l red bb0000       #bb0000
 
-	set -x color_initial_segment_exit     $lightgrey $red --bold
-	# set -x color_initial_segment_private  $base02 $base06
-	set -x color_initial_segment_su       $lightgrey 006400
-	set -x color_initial_segment_jobs     $lightgrey 0000aa
+	set -x color_initial_segment_exit     $darkgrey $pink
+	set -x color_initial_segment_private  $darkgrey $pink
+	set -x color_initial_segment_su       $darkgrey $pink
+	set -x color_initial_segment_jobs     $darkgrey $pink
 
 	set -x color_path                     $darkgrey $white
 	set -x color_path_basename            $darkgrey $white
@@ -34,20 +34,20 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 
 	# set -x color_repo                     $lightgrey $black
 	set -x color_repo                     $green $black
-	set -x color_repo_work_tree           $darkgrey $white --bold
+	set -x color_repo_work_tree           $darkgrey $white
 	set -x color_repo_dirty               $pink $black
 	set -x color_repo_staged              $yellow $black
 
-	set -x color_vi_mode_default          $brblue $black --bold
-	set -x color_vi_mode_insert           $green $black --bold
-	set -x color_vi_mode_visual           $yellow $black --bold
+	set -x color_vi_mode_default          $brblue $black
+	set -x color_vi_mode_insert           $green $black
+	set -x color_vi_mode_visual           $yellow $black
 
-	# set -x color_vagrant                  brcyan $white
-	# set -x color_k8s                      $lavender white
-	# set -x color_username                 white $white --bold
-	# set -x color_hostname                 white $white
+	set -x color_vagrant                  $blgreen $black
+	set -x color_k8s                      $blgreen $black
+	set -x color_username                 $darkgrey $brblue
+	set -x color_hostname                 $darkgrey $brblue
 	# set -x color_rvm                      brmagenta $white
-	# set -x color_node                     $brblue $white
+	set -x color_node                     $brblue $white
 	set -x color_virtualfish              $blgreen $black
 	set -x color_virtualgo                $blgreen $black
 	set -x color_desk                     $blgreen $black
