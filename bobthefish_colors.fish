@@ -11,10 +11,10 @@ function bobthefish_colors -S -d 'Define a custom bobthefish color scheme'
 	# Note that these must be defined with `set -x`
 
 	set -l black 0f1117     #0f1117
-	set -l white c6c8d1     #c6c8d1
+	set -l white b3b7c8     #b3b7c8
 	set -l green b6bd89     #b6bd89
-	set -l yellow e2a478    #e2a478 
-	set -l pink e27878      #e27878 
+	set -l yellow e2a478    #e2a478
+	set -l pink e27878      #e27878
 	set -l lightgrey 818596 #818596
 	set -l brblue b0c4de    #b0c4de
 	set -l blgreen 89b8c1   #89b8c1
